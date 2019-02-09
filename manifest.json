@@ -1,0 +1,13 @@
+{
+	"name": "Demo",
+	"description": "My first Chrome Extension",
+	"version": "1.0",
+	"browser_action":{
+		"default_icon": "search.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"http://api.giphy.com/"
+	],
+	"manifest_version": 2
+}
