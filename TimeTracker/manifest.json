@@ -1,0 +1,18 @@
+{
+    "name": "WebTime Tracker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Get your time spend on websites",
+    "permission": [
+        "history"
+    ],
+    "browser-action": {
+        "default_popup" : "popup.html",
+        "default_icon": {
+            "16": "images/statistics16.png",
+            "24": "images/statistics24.png",
+            "32": "images/statistics32.png",
+            "64": "images/statistics64.png"
+        }
+    }
+}
